@@ -383,29 +383,29 @@ struct PDH_status_3_t {
     uint8_t channel_15_breaker_fault : 1;
 
     /**
-     * Range: 0..511 (0..31.9375 A)
-     * Scale: 0.0625
+     * Range: 0..255.5 (0..31.9375 A)
+     * Scale: 0.125
      * Offset: 0
      */
     uint8_t channel_20_current : 8;
 
     /**
-     * Range: 0..511 (0..31.9375 A)
-     * Scale: 0.0625
+     * Range: 0..255.5 (0..31.9375 A)
+     * Scale: 0.125
      * Offset: 0
      */
     uint8_t channel_21_current : 8;
 
     /**
-     * Range: 0..511 (0..31.9375 A)
-     * Scale: 0.0625
+     * Range: 0..255.5 (0..31.9375 A)
+     * Scale: 0.125
      * Offset: 0
      */
     uint8_t channel_22_current : 8;
 
     /**
-     * Range: 0..511 (0..31.9375 A)
-     * Scale: 0.0625
+     * Range: 0..255.5 (0..31.9375 A)
+     * Scale: 0.125
      * Offset: 0
      */
     uint8_t channel_23_current : 8;
